@@ -1,0 +1,77 @@
+@keyframes textappear {
+    from {color: rgb(255, 255, 255);}
+    to {color: rgb(0, 0, 0);}
+}
+
+body {
+    margin: 100px auto;
+    width: 60%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 5px;
+    list-style: none;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(249, 168, 81);
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h2, h3, h4 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: rgb(70, 70, 70);
+    text-align:justify;
+    animation-name: textappear;
+    animation-duration: 2s;
+}
+footer {
+    border-top: 0.5px solid #d5d5d5;
+    font-size: .7em;
+    color: rgb(227, 227, 227);
+    text-align:center;
+    
+}
+
+
+ul.posts { 
+    margin: 20px auto 60px; 
+    font-size: 1.5em;
+    text-align:center;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
