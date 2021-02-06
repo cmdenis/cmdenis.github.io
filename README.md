@@ -1,1 +1,3 @@
-# cmdenis.github.io
+# christiandenis.ca
+
+This is the repository for Christian Denis' personal website.
