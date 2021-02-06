@@ -41,6 +41,131 @@ h2, h3, h4 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+.musiclink {
+    max-width: 600px;
+    margin: 10px auto 0px auto;
+    display: flex;
+    text-align: center;
+}
+
+.spotify {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    max-width:44px;
+    max-height:44px;
+}
+.spotify .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.spotify:hover .img-top {
+    display: inline;
+}
+
+
+
+
+.soundcloud {
+    flex: 1;
+    max-width:44px;
+    max-height:44px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: inline-block
+}
+
+.soundcloud .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.soundcloud:hover .img-top {
+    display: inline;
+}
+
+
+
+
+.itunes {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    max-width:50px;
+    max-height:30px;
+    position: relative;
+    display: inline-block
+}
+
+.itunes .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.itunes:hover .img-top {
+    display: inline;
+}
+
+
+
+.applemusic {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    max-width:50px;
+    height:30px;
+    position: relative;
+    display: inline-block
+}
+.applemusic .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.applemusic:hover .img-top {
+    display: inline;
+}
+
+
+
+
+
+
+.facebook {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    max-width:44px;
+    max-height:44px;
+    position: relative;
+    display: inline-block
+}
+.facebook .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.facebook:hover .img-top {
+    display: inline;
+}
+
+
+
+
 
 p {
     font-size: 1em;
