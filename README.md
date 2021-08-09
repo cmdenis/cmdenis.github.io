@@ -1,3 +1,3 @@
 # christiandenis.ca
 
-This is the repository for Christian Denis' personal website.
+This is the repository for my personal website.
