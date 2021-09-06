@@ -1,3 +1,3 @@
-# christiandenis.ca
+# cmdenis.ca
 
 This is the repository for my personal website.
