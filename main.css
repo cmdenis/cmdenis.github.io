@@ -21,7 +21,7 @@ nav ul, footer ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: larger;
+    font-size: large;
 }
 
 
