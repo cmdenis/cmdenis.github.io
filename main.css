@@ -19,6 +19,7 @@ nav ul, footer ul {
 .menu {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
