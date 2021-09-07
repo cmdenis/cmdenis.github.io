@@ -50,7 +50,7 @@
 </p>  <p>Of course, maps can become much more complicated than the examples we just described.
 </p>  <p>What is of interest to us now is this: Suppose I look at a map that maps to itself. And then, suppose I take some value A and map it unto some value B. Then I take the value B and map it to value C and keep going like this a bunch of times. We call this process map iteration, and we are interested in what happens in the limit as we keep doing this lots and lots of times. We often use the notation, to indicate that each new iteration is part of a long sequence of iteration, as follows:
 </p>  <p>$$ x_{n+1} = 1 - x_n $$
-</p>  <p>Let's first look at a somewhat boring example. Let's look at the map over the values 0 to 1:
+</p>  <p>Let's first look at a somewhat boring example. Let's look at the map over the values 0 to \( +\infty \):
 </p>  <p>$$ x_{n+1} = x_n^2. $$
 </p>  <p>If you pick a number between 0 and \( +\infty \), and you iterate the map over and over again, you will get three kinds of behavior. For any values smaller than 1 the value will get closer and closer to 0. Just to help you convince yourself of this: if you pick 0.5, for instance, you will then get 0.25, then 0.0625, then 0.00390625, and so on... For values that are exactly 1, you will simply stay on 1 forever. For values greater than 1 (even ever so slightly), you will diverge towards infinity in the long run. This illustrates the idea of fixed points. In this specific case. The fixed points are 0 and 1. Where 0 is a stable fixed point and 1 is an unstable fixed point.
 </p>  <h2>Logistic Map</h2>  <p>Now without going too much into detail. It's possible to construct not-so-complicated maps that exhibit much funkier behaviors. The classic one is the logistic map:
