@@ -164,7 +164,9 @@ h2, h3, h4 {
 }
 
 
-
+p.nospacepar {
+    line-height: 0px;
+}
 
 
 p {
@@ -174,6 +176,7 @@ p {
     text-align:justify;
     animation-name: textappear;
     animation-duration: 2s;
+    
 }
 footer {
     border-top: 0.5px solid #d5d5d5;
