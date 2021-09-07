@@ -9,6 +9,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    display: flex;
     padding: 5px;
     list-style: none;
     font-weight: bold;
@@ -17,6 +18,7 @@ nav ul, footer ul {
 
 .menu {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
