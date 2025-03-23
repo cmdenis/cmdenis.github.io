@@ -214,3 +214,19 @@ ul.posts li {
 .projectH3 {
     margin-bottom: 0%;
 }
+
+.countryBox {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countryStyle {
+    padding: 5px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.countryStyleContainer {
+    padding: 2px;
+}
